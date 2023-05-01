@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng nhập</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vietravel</title>
+  <link rel="stylesheet" href="css/web.css">
+  <script src="popper.min.js" ></script>
+  <link rel="stylesheet" href="jquery-ui-1.13.2.custom/jquery-ui.min.css">
+  <link rel="stylesheet" href="docs.css">
+  <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="css/login.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  
+</head>
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <div class="container-fluid" id="header">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <a class="navbar-brand" href="travel.com.html"><img src="img/logo.png" style="height: 50px; width: 150px;" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse p-2 bd-highlight" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Du lịch</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Du lịch trong nước</a></li>
+                <li><a class="dropdown-item" href="#">Du lịch nước ngoài</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Vietravel MICE</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Vận chuyển
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Thuê xe</a></li>
+                <li><a class="dropdown-item" href="#">Vé máy bay</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tin tức
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Tin mới</a></li>
+                <li><a class="dropdown-item" href="#">Tin tức du lịch</a></li>
+                <li><a class="dropdown-item" href="#">Cẩm nang du lịch</a></li>
+                <li><a class="dropdown-item" href="#">Kinh nghiệm du lịch</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Khuyến mãi
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Mua tour trả chậm 0%</a></li>
+                <li><a class="dropdown-item" href="#">Ưu đãi cùng VIB</a></li>
+                <li><a class="dropdown-item" href="#">Ưu đãi VNPay</a></li>
+                <li><a class="dropdown-item" href="#">Hoàn tiền MSB</a></li>
+                <li><a class="dropdown-item" href="#">Hoàn tiền BIDV</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Vietravel Plus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Liên hệ</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0 nav-search">
+            <input class="form-control mr-sm-2" type="search" placeholder="Bắt đầu tìm kiếm... " aria-label="Search"><span class="material-symbols-outlined">
+              search
+              </span>
+            <button class="btn my-2 my-sm-0" type="submit"><span class="material-symbols-outlined">
+              person
+              </span></button>
+          </form>
+        </div>
+      </nav>
+      </div>
+      <div class="centered-div text-start" id="mainLogin">
+        <div class="text-center">
+         <span style="font-size: 20px;; font-weight: 600;">Chào mừng quý khách đến với</span></div> <br> 
+         <div class="text-center"><span style="; font-weight: 700; font-size: 22px; line-height: 50px;">Vietravel</span></div>
+          <div class="text-center">
+          <button type="button" class="btn btn-light btn-lg login">Đăng nhập</button>
+          <button type="button" class="btn btn-primary btn-lg login">Đăng kí</button>
+            </div>
+          <div>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"><p class="loginName">Số điện thoại hoặc email<span style="color: red;">*</span></p></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tài khoản">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"><p class="loginName">Mật khẩu<span style="color: red;">*</span></p></label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+              </div>
+              <div class="mb-3 form-check">
+                <div class="text-end"><label class="form-check-label" for="exampleCheck1"><a href="">Lấy lại mật khẩu</a></label></div>
+              </div>
+              <div class="text-center" style="width:360px; padding:20px; border:1px solid #ccc; margin-bottom: 20px;">
+                <form>
+                  <label>Nhập các ký tự trong hình ảnh:</label>
+                  <input type="text" name="captcha" required>
+                  <br><br>
+                  <img src="img/captcha_image.png" alt="captcha" style="width: 250px;">
+                  <br><br>
+                  <input type="submit" value="Xác nhận">
+                </form>
+              </div>
+              <div class="text-center"><div class="d-grid gap-2">
+                <button type="submit" class="btn btn-danger">Đăng nhập<img src="img/login_FILL0_wght400_GRAD0_opsz24.png" alt="" style="height: 40px;;">
+              </button></div>
+            </form>
+            <p style="margin: 15px 20px; font-size: 18px; font-weight: bold;">Hoặc</p>
+            </div>
+            <button type="button" class="btn btn-light btn-lg moreOp" style="font-size: 15px;"><img src="img/fb.png" alt="" style="width: 24px;">Tiếp tục với <br> Facebook</button>
+            <button type="button" class="btn btn-danger btn-lg moreOp" style="font-size: 15px;"><img src="img/g+ icon.png" alt="" style="width: 24px;">Tiếp tục với<br>Google</button>
+          </div>
+      </div>
+      <div id="footer">
+        <div class="container text-start">
+          <div class="row">
+            <div class="col"><p>Du lịch trong nước</p>
+              <div class="container text-start">
+                <div class="row">
+                  <div class="col fix-pad">
+                    <ul class="diadanh ">
+                      <li><a href="">Hà Nội</a></li>
+                      <li><a href="">Hải Phòng</a></li>
+                      <li><a href="">Hạ Long</a></li>
+                      <li><a href="">Huế</a></li>
+                      <li><a href="">Quảng Bình</a></li>
+                      <li><a href="">Đà Nẵng</a></li>
+                      <li><a href="">Quảng Nam</a></li>
+                      <li><a href="">Nha Trang</a></li>
+                    </ul>
+                  </div>
+                  <div class="col fix-pad">
+                    <ul class="diadanh ">
+                      <li><a href="">Đà Lạt</a></li>
+                      <li><a href="">Phan Thiết</a></li>
+                      <li><a href="">Bà Rịa - Vũng Tàu</a></li>
+                      <li><a href="">Phú Quốc</a></li>
+                      <li><a href="">Cần Thơ</a></li>
+                      <li><a href="">Hà Tiên</a></li>
+                      <li><a href="">Bắc Kạn</a></li>
+                      <li><a href="">Hà Giang</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col"><p>Du lịch nước ngoài</p>
+              <div class="container text-start">
+                <div class="row">
+                  <div class="col fix-pad">
+                    <ul class="diadanh ">
+                      <li><a href="">Trung Quốc</a></li>
+                      <li><a href="">Thái Lan</a></li>
+                      <li><a href="">Malaysia</a></li>
+                      <li><a href="">Singapore</a></li>
+                      <li><a href="">Hàn Quốc</a></li>
+                      <li><a href="">Úc</a></li>
+                      <li><a href="">Mỹ - Hoa Kỳ</a></li>
+                      <li><a href="">Nhật Bản</a></li>
+                    </ul>
+                  </div>
+                  <div class="col fix-pad">
+                    <ul class="diadanh ">
+                      <li><a href="">Ấn Độ</a></li>
+                      <li><a href="">Philipines</a></li>
+                      <li><a href="">Maldives</a></li>
+                      <li><a href="">Na Uy</a></li>
+                      <li><a href="">Tây Ban Nha</a></li>
+                      <li><a href="">Hà Lan </a></li>
+                      <li><a href="">Đức</a></li>
+                      <li><a href="">Anh</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col"><p>Dòng tour</p>
+              <div class="container text-start">
+                <div class="row">
+                  <div class="col fix-pad">
+                    <ul class="diadanh ">
+                      <li><a href="">Cao cấp</a></li>
+                      <li><a href="">Tiêu chuẩn</a></li>
+                      <li><a href="">Tiết kiệm</a></li>
+                      <li><a href="">Giá tốt</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col"><p>Ứng dụng di động</p>
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col fix-pad">
+                    <ul class="diadanh">
+                      <li><a href=""><img src="img/googleplay.png" alt=""></a></li>
+                      <li><a href="#">ISO</a></li>
+                      <li><a href="#"><img src="img/qr.png" alt=""></a></li>
+                    </ul>
+                  </div>
+                  <div class="col fix-pad">
+                    <ul class="diadanh">
+                      <li><a href=""><img src="img/googleplay.png" alt=""></a></li>
+                      <li><a href="#">ISO</a></li>
+                      <li><a href="#"><img src="img/qr.png" alt=""></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="container text-start">
+        <div class="row">
+          <div class="col-3"><p>Liên hệ</p>
+            <ul>
+              <li>
+                <p>190 Pasteur, Phường Võ Thị Sáu, Quận 3, TP
+                  HCM</p>
+              </li>
+              <li>
+                <p>(+84 28) 3822 8898
+                </p>
+              </li>
+              <li>
+                <p>(+84 28) 3829 9142
+                </p>
+              </li>
+              <li>
+                <p>info@vietravel.com
+                </p>
+              </li>
+            </ul>
+            <p>Mạng xã hội</p>
+            <ul>
+              <li><img src="img/fb zalo.png" alt=""></li>
+              <li><button type="button" class="btn btn-danger" style="margin: 10px 0; width: 176px; font-size: 22px; font-weight: bold; border-radius: 8px;"><img src="img/call.png" alt="">1900 1839</button>
+              </li>
+              <li><p>Từ 8:00 - 22:00 hàng ngày</p></li>
+            </ul>
+          </div>
+            <div class="col-3"><p>Thông tin</p>
+              <div class="container text-start">
+                <div class="row">
+                  <div class="col fix-pad">
+                    <ul class="diadanh ">
+                      <li><a href="">Tạp chí du lịch</a></li>
+                      <li><a href="">Cẩm nang du lịch</a></li>
+                      <li><a href="">Tin tức</a></li>
+                      <li><a href="">Sitemap</a></li>
+                      <li><a href="">FAQs</a></li>
+                      <li><a href="">Chính sách riêng tư</a></li>
+                      <li><a href="">Thỏa thuận sử dụng</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="col-6"><p>Newsletter</p>
+            <div class="input-group mb-3" style="background-color: #fff; width: 350px; border-radius: 15px;">
+              <input type="text" class="form-control" placeholder="Email của Quý khách" aria-label="Username">
+              <span class="input-group-text" style="border: solid 1px #2d4271;"><img src="img/email.png" alt=""></span>
+            </div>
+            <p>Tìm kiếm thông tin</p>
+            <div class="input-group mb-3" style="background-color: #fff; width: 350px; border-radius: 15px;">
+              <input type="text" class="form-control" placeholder="Tour du lịch, điểm đến..." aria-label="Username">
+              <span class="input-group-text" style="border: solid 1px #2d4271;"><img src="img/search_FILL0_wght400_GRAD0_opsz24.png" alt=""></span>
+            </div>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <p>Chứng nhận</p>
+                  <img src="img/chungnhan1.png" alt="" style="margin-bottom: 10px;">
+                  <img src="img/chungnhan2.png" alt="">
+                </div>
+                <div class="col">
+                  <p>Chấp nhận thanh toán</p>
+                  <img src="img/chapnhanhthanhtoan1.png" alt="">
+                  <img src="img/chapnhanhthanhtoan2.png" alt="">
+                  <img src="img/chapnhanhthanhtoan3.png" alt="">
+                  <img src="img/chapnhanhthanhtoan4.png" alt="">
+                  <img src="img/chapnhanhthanhtoan5.png" alt="">
+                  <img src="img/chapnhanhthanhtoan6.png" alt="">
+                  <img src="img/chapnhanhthanhtoan7.png" alt="">
+                  <img src="img/chapnhanhthanhtoan8.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div id="footer2">
+        <div class="container text-start" style="height: 105px;">
+          <p>Bản quyền của Vietravel ® 2016. Bảo lưu mọi quyền.</p>
+          <p>Ghi rõ nguồn "www.travel.com.vn" ® khi sử dụng lại thông tin từ website này.</p>
+          <p>Số giấy phép kinh doanh lữ hành Quốc tế: 79-234/2014/TCDL-GP LHQT</p>
+        </div>
+      </div>
+    </head>
+</body>
+<script src="jquery-3.6.3.min.js"></script>
+<script src="jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
+<script src="bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+<script src="js/web.js"></script>
+</html>

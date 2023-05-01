@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(/font/Roboto/Roboto-Medium.ttf);
+  }
+  body {
+    font-family: 'Roboto';
+    /* font-size: 22px; */
+}
+div{
+    display: block
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.navbar-light .navbar-nav .nav-link {    
+    font-weight: 700;
+    font-size: 13px;
+    color: #2d4271;
+    margin-right: 15px;
+}
+#header a{
+    color: #2d4271;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+    padding: 0 !important
+    margin: 0 !important
+}
+.navbar{
+    padding: 0;
+}
+.imgLogo{
+    width: 25px;
+    height: 25px;
+}
+.search{
+    background-color:  rgba(45,66,113,.8);
+    padding: 0;
+    border-radius: 14px 10px 0 0;
+}
+.nav-tabs .nav-link{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+} 
+.tab-content>.active{
+    background-color: #fff;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border-radius: 14px 10px 0 0;
+    color: #4d4aef!important;
+}
+.nav-tabs button{
+    height: 120px;
+    padding-right: 30px;
+}
+.btn-group-lg>.btn, .btn-lg{
+    font-size: 13px;
+}
+.tab-content>.active{
+    padding: 24px 24px;
+}
+#nav-tab #nav-home-tab,#nav-tab #nav-profile-tab,#nav-tab #nav-contact-tab{
+    color: black;
+    height: 43px;
+}
+.input-group-text{
+    padding: 0;
+    border: none;
+    background-color: #fff;
+}
+select{
+    margin-right: 5px;
+    border: 0px;
+}
+.datepick p {
+    margin: 0 15px !important;
+}
+.datepick {
+    padding-top: 10px;
+}
+.input-group-text {
+    margin-left: 20px;
+}
+.end-btn {
+  background-color:  rgba(45,66,113,.8);
+  border: none;
+  width: 4vw;
+  height: 3vw;
+  font-size: 1.5vw;
+  color: #FFFFFF;
+  border-radius: 0.5vw;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-link a{
+    color: black;
+}
+.nav-link a:hover{
+    text-decoration: none;
+}
+.form-control {
+    border: 0px black solid;
+}
+.form-control:focus {
+    border: 0px black solid;
+    box-shadow: none;
+}
+.mb-1, .my-1, a{
+    font-size: 13px;
+}
+.form-control a{
+    font-size: 13px;
+}
+.mb-1, .my-1, input{
+    font-size: 13px;
+}
+.khung{
+    border: 5px solid #ffc709;
+    border-radius: 10px;
+    margin: 5px;
+}
+<b:tag name='style'>/* <![CDATA[ */
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+.buttons_added{
+    width: 250px;
+}
+.arrowkhung{
+    border: 0px solid #ffc709;
+    border-radius: 0px;
+    margin: 5px;
+}
+.arrowkhung .end-btn{
+    width: 17vw;
+}
+#banner{
+    background-image: url("https://media.travel.com.vn/SlideShow/sl_230131_topbanner_hanhhuong-01_1675129834.jpg");
+    background-repeat: no-repeat;
+    padding-top: 350px;
+    margin-bottom: 40px;
+}
+.tab-content>.tab-pane{
+    padding: 24px 24px;
+}
+.search{
+    box-shadow: 5px 5px 10px 5px #f0e7e6;
+}
+.slider{
+    margin-bottom: 40px;
+}
+
+
+.img01x,.img02x{
+    position: absolute;
+}
+.item1 {
+    position: relative;
+    text-align: left;
+    color: white;
+  }
+  
+.item1-name {
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    text-align: left;
+
+    transform: translate(-50%, -50%);
+  }
+.card-item{
+    width: 200px;
+    margin-right: 50px;
+}
+#card{
+    display: flex;
+    margin-bottom: 40px;
+}
+.item1 a img{
+    border-radius: 15px;
+    object-fit: cover
+}
+.item1 a{
+    color:white;
+    font-size: 20px;
+    font-weight:900;
+}
+.item1-name{
+    width: 175px;
+}
+.item1 a:hover{
+    text-decoration: none;
+}
+a{
+    font-family: Roboto;
+}
+.itemTitle{
+    margin-bottom: 20px;
+}
+.card{
+}
+.card-text{
+    font-size: 13px;
+    font-weight: 0;
+}
+.saleTour{
+    float: right;
+    font-size: 10px;
+}
+.card-hov{
+    margin-right: 20px;
+    border-radius: 15px;
+    border: whitesmoke solid 2px;
+
+}
+.card-hov:hover{
+    border: 1px #2d4271 solid;
+    border-radius: 15px;
+    margin-top: 5px;
+    box-shadow:   5px 5px 5px 5px  #f0e7e6;
+
+}
+.card{
+    border: none;
+}
+.tourgiochot{
+    margin-top: 20px;
+}
+a.diemden-hov:hover{
+    color: blue !important;
+    text-decoration: none;
+}
+p.diemden-p{
+    padding-left: 15px;
+}
+#footer {
+    background-color: #e7caca !important;
+    padding-top: 45px;
+}
+.diadanh{
+    list-style: none;
+}
+.diadanh li a{
+    font-size: 13px;
+    color: #2d4271;
+}
+.fix-pad{
+    padding: 0;
+}
+.col .fix-pad{
+    max-width: 50%;
+}
+#footer p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2d4271;
+}
+#footer li p{
+    font-size: 13px;
+    font-weight: normal;
+    color: #2d4271;
+}
+#footer li{
+    list-style: none;
+}
+#footer2{
+    background-image: url(https://travel.com.vn/Content/Theme/images/bg-footer.png);
+    background-repeat: no-repeat;
+    height: 105px;
+}
+#footer2 p{
+    font-size: 13px;
+    color: #2d4271;
+}
+.nav-search{
+    position: absolute;
+    right: 10px;
+    top: 10px;}

@@ -1,0 +1,26 @@
+.centered-div {
+    width: 360px;
+    margin: 0 auto;
+    text-align: center}
+.login{
+    width: 177px;
+    margin: 20px 0;
+    font-weight: bold;
+    height: 60px;
+}
+*{
+    color: #2d4271;
+}
+.loginName{
+    font-weight: bold;
+}
+#mainLogin{
+    margin-top: 120px;
+}
+p.loginName{
+    margin: 0;
+}
+.moreOp{
+    padding: 15px 37px;
+    margin-bottom: 120px ;
+}

@@ -1,0 +1,44 @@
+.breadcrumb{
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+#lienhe {
+    width: 50%;
+    margin: 0 auto;
+    text-align: start;
+  }
+.contentLienhe{
+    width: 77%;
+    margin: 0 auto;
+    text-align: start;
+}
+.col p{
+    color: black;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 0;
+}
+.col{
+    margin: 0 5px;
+    padding: 0;
+}
+textarea.form-control {
+    height: 150px;
+}
+.breadcrumb a{
+    color: #6c757d;
+}
+.formLienhe{
+    margin-top: 50px;
+}
+.send button{
+    padding: 5px 10px;
+}
+.fixh4{
+    font-size: 24px;
+}
+.fixP p{
+    font-size: 15px;
+    font-weight: normal;
+}
